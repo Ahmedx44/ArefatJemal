@@ -15,10 +15,9 @@
    }
 }
 @media screen and (max-width:1100px) {
-    @keyfream slide-in{
+    @keyframes slide-in{
         from {right: -600px;} 
-        to {right:-500px;} 
-        
+        to {right:-550px;}    
     }
     html{
         font-size: 12px;
@@ -28,9 +27,188 @@
         gap: 10px;
         font-size: 16px;
     }
-    .welcome{
-        margin-left:350px;
+    
+    
+    /***********************
+     for width of 1000px
+     **/
+   
+
+    @media screen and (max-width:1000px){
+        .card{
+            grid-template-columns: repeat(2, 400px);
+        }
+        
+        @keyframes slide-in{
+            from {right: -550px;} 
+            to {right:-550px;} 
+          
+        }
+        .card{
+            margin-left:50px;
+        }
+        .welcome{
+            margin-left: 350px;
+        }
+        hr{
+            width:80%;
+        }
+        html{
+            margin:0;
+            padding:0;
+            font-size: 12px;
+        }
+        .image1 img{
+            width: 400px;
+        }
+        .inspire p{
+            font-size: 12px;
+        }
+        body{
+            width:100%;
+            margin:0;
+        }
+        .my-work{
+            width:800px;
+        }
     }
+    @media screen and (max-width:948px) {
+        @keyframes slide-in{
+            from {right: -550px;} 
+            to {right:-500px;
+            } 
+        }
+
+        .my-work{
+            width:700px;
+        }
+        .welcome p{
+            font-size: 10px;
+            
+        }
+        .welcome{
+            margin-left:300px;
+            width:200px;
+            heigth:200px;
+
+        }
+        .card{
+            margin-left:-30px;
+        }
+        
+    }
+    @media screen and (max-width:900px){
+        .my-work{
+            width:600px;
+        }
+        .welcome p{
+            width: 400px;
+            height:50px;
+            margin-left:-70px;
+            margin-top:20px;
+        }
+        #abstract{
+            display:none;
+        }
+        .card{
+            grid-template-columns: repeat(2, 300px);
+        }
+    }
+    @media screen and (max-width:834px){
+        @keyframes slide-in{
+            from {right: -500px;} 
+            to {right:-400px;
+            } 
+        }
+        .image1 img{
+            width: 350px;
+            margin-left:-2em;
+        }
+        .inspire p {
+            width:240px;
+            margin-left:-50px;
+        }
+        .welcome h1{
+            margin-left:-150px;
+        }
+        .welcome p{
+            margin-left:-150px;
+        }
+        #scenery{
+            display:none;
+        }
+        .card{
+            margin:0 0 0 20px;
+        }
+        @media screen and (max-width:686px){
+            @keyframes slide-in{
+                from {right: -400px;} 
+                to {right:-200px;
+                } 
+            }
+            html{
+                font-size: 8px;
+            }
+            .content{
+                display:block;
+            }
+            .image1{
+                margin-left:90px;
+            }
+            .inspire h1{
+                margin-left:100px;
+            }
+            .inspire p{
+                margin-left:70px;
+                width:300px;
+            }
+            .my-work{
+                width:500px;
+            }
+            .card{
+                grid-template-columns: repeat(2, 250px);
+            }
+            .welcome h1{
+                width:300px;
+            }
+            .welcome p{
+                margin-left:-200px;
+            }
+            #floral{
+                display:none;
+            }
+            .box{
+                width:100px;
+                margin-left:10px;
+            }
+        }
+        @media screen and (max-width: 542px) {
+            .image1{
+                margin-left:20px;
+            }
+            .my-work{
+                width:400px;
+            }
+            .card{
+                grid-template-columns: repeat(2, 190px);
+            }
+            .welcome p{
+                margin-left:-230px;
+                height:100px;
+            }
+            .welcome h1{
+                margin-left:-200px;
+                width:150px;
+            }
+            #home{
+                display:none;
+            }
+            .welcome{
+                margin-left:250px;
+                width:200px;
+            }
+
+
 }
 
 
