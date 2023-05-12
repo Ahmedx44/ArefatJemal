@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image1:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+body{
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+  
+    height: 100px;
+}
+.nav-main{
+    display: flex;
+    gap: 20px;
+}
+.nav-main p a:hover{
+    color: rgb(16, 184, 206);
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-main p{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    height: 30px;
+}
+.logo{
+    margin-top: 20px;
+}
+.logo h2{
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+    border: 5px solid black;
+}
+.buy{
+    background-color: rgb(60, 169, 233);
+    color: white;
+    transition: background-color 0.5s ease;
+    border-radius: 2px;
+}
+.buy:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.main{
+    width:70%;
+}
+.name{
+    padding:20px;
+    background-color: rgb(60, 169, 233);
+    width:30%;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    position: relative;
+    animation: slide-in 3s forwards;  
+}
+@keyframes slide-in {
+    from {right: -1400px;} 
+    to {right:-700px;} 
+  }
+.content{
+    width: 80%;
+    margin:30px 70px;
+    display: flex;
+    gap: 100px;
+}
+.content img{
+    width:500px;
+    border-radius: 10px;
+}
+.inspire{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:1.05em ;
+}
+
+.welcome{
+    margin:100px 500px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1em;
+
+}
+.welcome p {
+    width:900px;
+    margin-left: -300px;
+    font-size: 1.2rem;
+}
+.welcome h1{
+    width: 500px;
+    margin-left: -100px;
+}
+.intro{
+    background:linear-gradient(to bottom,rgba(233, 231, 231, 0.699)2%,rgba(0,0,0,0));
+    padding-top:100px;
+}
+.my-work{
+    width:1000px;
+    margin: auto;
+    font-family: 'Merriweather', serif;
+}
+.my-work h1{
+    margin-bottom: 30px;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:50px 0px; 
+}
+.card-item img{
+    width: 90%;
+    border-radius: 2px;
+}
+.cont{
+    color: grey;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8em;  
+}
+.cont h3{
+    margin-top: 10px;
+}
+hr{
+    margin: 50px 0px;
+}
+.box{
+    width:200px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.829);
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(61, 60, 60);
+    position: relative;
+    bottom:70px;
+    left: 30px;
+    padding: 10px 20px;
+}
+.connect{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.icons{
+    padding: 15px 10px;
+    background-color: rgb(9, 8, 31);
+    color: white;
+}
+footer{
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    background-color: rgb(16, 9, 54);
+    padding: 30px 0;
+    color: aliceblue;
+    margin-top: 30px;
+}
+.icons:hover{
+    background-color: rgb(121, 62, 148);
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
