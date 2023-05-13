@@ -255,12 +255,37 @@
                 ********************/
            
                 @media screen and (max-width:400px){
+
                     .nav-main{
                         display: none;
                     }
                     .box{
-                        margin-left: -40px;
+                        margin-left: -20px;
                        
+                    }
+                    @keyframes slide-in{
+                        from {right: -150px;} 
+                        to {right:-100px;} 
+                    }
+                    #change{
+                        padding:0;
+                    }
+                    .image1 img{
+                        margin-left: -50px;
+                    }
+                    .inspire {
+                        width: 60%;
+                        
+                    }
+                    .welcome h1{
+                        margin-left: -150px;
+                    }
+                    .my-work h1{
+                        margin-left: 120px;
+                    }
+                    hr{
+                        width: 80%;
+                        margin-left: 30px;
                     }
            }
 
