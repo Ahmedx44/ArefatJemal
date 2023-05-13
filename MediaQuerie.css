@@ -260,8 +260,7 @@
                         display: none;
                     }
                     .box{
-                        margin-left: -100px;
-                       
+                        margin-left: -20px;  
                     }
                     @keyframes slide-in{
                         from {right: -150px;} 
