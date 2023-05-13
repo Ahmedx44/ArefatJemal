@@ -176,7 +176,7 @@
             }
             #floral{
                 display:none;
-            }
+            }    
             .box{
                 width:100px;
                 margin-left:10px;
@@ -207,16 +207,57 @@
                 margin-left:250px;
                 width:200px;
             }
+            .nav-main{
+                display: none;
+            }
             @keyframes slide-in{
                 from {right: -400px;} 
                 to {right:-150px;} 
             }
+        }
+
+
+            /*****************
+            for smaller tablet
+            ********************/
 
             @media screen and (max-width: 464px) {
-                #aboutme{
+                .image1 img{
+                    width:300px;
+                }
+                #change h1{
+                    padding:0px;
                     
                 }
-         
+                .inspire p{
+                    margin-left:0px;
+                    width:300px;
+                }
+                .inspire h1{
+                    margin-left: 10px;
+                    margin-top: 10px;
+                }
+                .inspire{
+                    width:50%;
+                }
+                .content{
+                    width:70%;
+                }
+                .welcome{
+                    margin-left:250px;
+                    width:120px;
+                }
+                .welcome p{
+                    width: 300px;
+                }
+                /********************
+                for mobile 400px
+                ********************/
+           
+                @media screen and (max-width:400px){
+                    .nav-main{
+                        display: none;
+                    }
            }
 
 }
