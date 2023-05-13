@@ -258,6 +258,10 @@
                     .nav-main{
                         display: none;
                     }
+                    .box{
+                        margin-left: -40px;
+                       
+                    }
            }
 
 }
