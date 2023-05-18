@@ -276,10 +276,14 @@
                     }
                     .inspire {
                         width: 60%;
+                        margin-left: -20px;
                         
                     }
                     .welcome h1{
                         margin-left: -150px;
+                    }
+                    .welcome p{
+                        margin-left: -200px;
                     }
                     .my-work h1{
                         margin-left: 120px;
@@ -287,6 +291,10 @@
                     hr{
                         width: 80%;
                         margin-left: 30px;
+                    }
+                    .name{
+                        border-radius: 10px;
+                        text-align: center;
                     }
            }
 
