@@ -261,6 +261,9 @@
                     .nav-main{
                         display: none;
                     }
+                    h1{
+                        margin: 0px;
+                    }
                     .box{
                         margin-left: -20px;  
                     }
