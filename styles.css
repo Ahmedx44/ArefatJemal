@@ -136,6 +136,10 @@ a{
 .first-pic img{
     height:23rem;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .card-item img
 
 .cont{
