@@ -57,9 +57,10 @@ a{
 }
 .name{
     padding:20px;
-    background-color: rgb(60, 169, 233);
+    background: linear-gradient(to right, #04a3ff ,#53035a);
     width:30%;
     color: white;
+    border-radius: 7px;
     font-family: 'Caveat', cursive;
     font-size: 2em;
     position: relative;
